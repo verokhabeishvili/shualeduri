@@ -1,13 +1,19 @@
-.bodyclass { background-color: #C6D5FF; }
+.bodyclass { background-color: #C6D5FF; 
+				max-height: 3048px;
+				max-width: 1920;}
 
 .logo  { width: 64px;
-		height: 90px; }
+		height: 90px;
+		padding-left: 20px; }
+
 
 .nav-class { width: 1820px;
 			 height: 98px;
 			border-color: #707070;
-			vertical-align: super;
-			}
+			margin-top: 30px;
+			margin-left: 40px;
+			vertical-align: middle;
+			margin-right: 40px;}
 
 .ul-class {display: inline-block;
 			width: 539px;
@@ -15,13 +21,42 @@
 			float: right;
 			background-color: #EBEBEB ;
 			border-color: #707070;
-			border-style: rounded;}
+			border-radius: 6px;
+			margin-right: 40px;
+			text-align: center;
+			vertical-align: middle;
+			padding-top: 20px;}
 
-.active { color: #A00000; }
+.active { color: black;}
 
-.li-class {display: inline-block;
-		font-size: 20px;
-		font-family: 'Roboto';
-		font-style: bold;
-		color: #000000;}
+.li-class {display:  inline-block;
+			font-size: 20px;
+			font-family: 'Roboto';
+			font-style: bold;
+			padding-right: 20px;
+			padding-left: 20px;}
 
+
+.container { margin-left: 40px;
+			 margin-right: 40px;
+			 margin-top: 50px; }
+
+.articlecontainer {margin-left: 40px;
+					margin-right: 40px;
+					margin-top: 40px;}
+
+.articlecontainer2 { display: flex;
+ 					justify-content: space-between; }
+
+.imgarticle { width: 870px;
+			height: 519px; }
+
+.articlecontainer3 {display: inline-block;}
+
+.newsclass { size: 25px; 
+			margin-top: 30px;
+			margin-bottom: 30px;}
+
+.footer { height: 100px;
+			width: 1920px;
+			background-color: black; }
