@@ -1,0 +1,27 @@
+.bodyclass { background-color: #C6D5FF; }
+
+.logo  { width: 64px;
+		height: 90px; }
+
+.nav-class { width: 1820px;
+			 height: 98px;
+			border-color: #707070;
+			vertical-align: super;
+			}
+
+.ul-class {display: inline-block;
+			width: 539px;
+			height: 64px;
+			float: right;
+			background-color: #EBEBEB ;
+			border-color: #707070;
+			border-style: rounded;}
+
+.active { color: #A00000; }
+
+.li-class {display: inline-block;
+		font-size: 20px;
+		font-family: 'Roboto';
+		font-style: bold;
+		color: #000000;}
+
